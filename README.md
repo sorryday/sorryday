@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on my **Java and Spring Framework**
 
-- 🌱 I’m currently learning **Java, Python, Spring, React**
+- 🌱 I’m currently learning **Java, Python, Spring, React.js**
 
 - 👯 I will be a growing developer.
 
