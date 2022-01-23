@@ -1,9 +1,7 @@
 <h1 align="center">Hi 👋, I'm sorryday </h1>
 <h3 align="center">A passionate beginner Java and Back-End (and a Front-End) developer from Republic of Korea</h3>
 
-- 🔭 I’m currently working on my **Java and Spring Framework**
-
-- 🌱 I’m currently learning **Java, Python, Spring, React.js**
+- 🔭 I’m currently working on my **![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) and 	![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)**
 
 - 👯 I will be a growing developer.
 
@@ -18,5 +16,3 @@
 
 
 ---------------------------
-
-Last Edited on: 27/09/2021
