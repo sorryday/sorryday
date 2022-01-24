@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm sorryday </h1>
 <h3 align="center">A passionate beginner Java and Back-End (and a Front-End) developer from Republic of Korea</h3>
 
-- 🔭 I’m currently working on my **![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)   ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)   Android Studio	![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)**
+- 🔭 I’m currently working on my **![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)   ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)   ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)**
 
 - 👯 I will be a growing developer.
 
