@@ -489,8 +489,10 @@ if (url.startsWith("/user/create")) {
 ```
 
 <br>
-![23](https://user-images.githubusercontent.com/49806698/235554448-a991c939-f25e-45e6-8ea9-71832eef25a6.png)<br>
-![24](https://user-images.githubusercontent.com/49806698/235554458-e72f8efd-743a-4d13-aa6d-5f5fe5b503d7.png)<br>
+![23](https://user-images.githubusercontent.com/49806698/235554834-c4cde14b-c8cc-4ccc-9a5f-14d7ed538001.png)
+
+![24](https://user-images.githubusercontent.com/49806698/235554840-9cf7c277-c1b0-48b6-9a0b-6e7f6edcbb26.png)
+
 <br>
 
 
