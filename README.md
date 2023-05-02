@@ -102,19 +102,19 @@
     
     단!! 한 번 다운받은 후에는 재 다운로드가 불가능하기 때문에 백업이 필요하다.
         
-      ![11](https://user-images.githubusercontent.com/49806698/235552155-50801f43-479a-44e0-a8ac-c34d5ea4eff6.png)
+     
 
         
     4. 네트워크는 보안 그룹을 따로 생성하도록 하였으며 SSH 트래픽의 경우 **위치 무관**으로 열어놓았다. 보안 상 특정 ip에서 접속하도록 설정 해야 하지만 현재는 스터디를 위한 것이므로 어느 IP에서도 접속이 가능하도록 하였다.
     
     스토리지 구성의 경우 프리 티어는 최대 30GB 범용 SSD를 사용할 수 있어서 29GB를 할당하였다.
         
-        <img width="1479" alt="12" src="https://user-images.githubusercontent.com/49806698/235552162-47e95ad4-b52a-45bf-845a-ba8c00f603b5.png">
+       
 
         
     5. 설정이 끝난 후 인스턴스 시작을 누르면 인스턴스 생성 완료 메시지가 나오며, 인스턴스 홈으로 가 보면 생성한 인스턴스를 볼 수 있다.
         
-       ![13](https://user-images.githubusercontent.com/49806698/235552173-99d9cec2-be12-4b64-b06a-39b139c780ee.png)
+      
 
         
     6. AWS EC2 인스턴스는 서버를 중지하고 다시 실행하면 Public IP가 변경되기 때문에 Reboot을 해도 사용할 수 있는 IP가 필요하다.
@@ -122,17 +122,14 @@
         탄력적 IP는 만들어놓고 사용하지 않더라도 과금이 되기 때문에 필요한 만큼만 생성하자!
         메뉴의 “탄력적 IP”를 클릭하여 “탄력적 IP 주소 할당”을 선택한다.
         
-       <img width="870" alt="14" src="https://user-images.githubusercontent.com/49806698/235552180-de1a36ee-8f4c-4cb7-9b29-effbd227bbfc.png">
 
         
     7. 기본 Default로 할당을 해주면 된다.
         
-       <img width="310" alt="15" src="https://user-images.githubusercontent.com/49806698/235552191-999a2ed6-fbd8-4bfd-9820-472662b2d369.png">
 
         
     8. 그 후 생성한 탄력적 IP와 생성한 EC2 인스턴스를 연결하면 인스턴스의 IP가 탄력적 IP로 고정 됨을 알 수 있다.
         
-       ![16](https://user-images.githubusercontent.com/49806698/235552199-855d6cdd-022d-4723-93dc-e06d3c0c1e7c.png)
 
         
     9. 이제 인스턴스를 연결해보자.
