@@ -45,9 +45,9 @@
 - 이클립스의 Git Perspective를 이용한 방법
 1. https://github.com/slipp/web-application-server 에서 Project를 자신의 Repository에 Fork한다.
     
-<img width="1663" alt="1" src="https://user-images.githubusercontent.com/49806698/235552016-ecd2e486-6035-459a-997f-859e08c55382.png">
-
-    <br>
+   <img width="1663" alt="1" src="https://user-images.githubusercontent.com/49806698/235552016-ecd2e486-6035-459a-997f-859e08c55382.png">
+	<br>
+    
 2. 이클립스의 Git Perspective에서 Fork한 Repository를 Git clone 한다.
     <img width="520" alt="2" src="https://user-images.githubusercontent.com/49806698/235552036-a099c762-6dbe-4aad-9aee-dce3153435f0.png">
 
