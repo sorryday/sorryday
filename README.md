@@ -97,21 +97,24 @@
     2. 인스턴스 시작을 누르면 Amazon Machine Image(AMI) 및 인스턴스 유형을 선택할 수 있는 페이지로 넘어간다. 이 부분에서 프리 티어의 Ubuntu 22.04 LTS 버전을 선택한다.
     프리 티어를 사용한다면 인스턴스의 유형은 **t2.mircro**로 고정이다. <br>
     <img width="800" alt="8" src="https://user-images.githubusercontent.com/49806698/235553459-a5f6ebd5-4b02-414e-a59a-56534318df00.png"><br>
-    <img width="793" alt="9" src="https://user-images.githubusercontent.com/49806698/235553475-1bd645bf-0b95-4a68-9014-2176eeaa5295.png"><br>
-    <img width="594" alt="10" src="https://user-images.githubusercontent.com/49806698/235553484-646e3e54-1ae2-4fc2-a909-285930a42728.png"><br>
+    <img width="800" alt="asv" src="https://user-images.githubusercontent.com/49806698/235553626-e0d9958d-eb86-40ac-993a-5f02e1e2bc04.png"><br>
+    <img width="793" alt="9" src="https://user-images.githubusercontent.com/49806698/235553717-634b5759-e3c8-4f09-8385-addba151a09a.png"><br>
+
 
     3. 키 페어는 EC2 서버에 SSH 접속을 위해 필수적인 부분이다.
     **새 키페어 생성**”을 통해 키 페어를 생성 하면 `[key이름].pem` 파일이 다운로드 되는데 이 파일의 위치에 가서 ssh 명령을 수행하면 된다.
     
-    단!! 한 번 다운받은 후에는 재 다운로드가 불가능하기 때문에 백업이 필요하다.
+    단!! 한 번 다운받은 후에는 재 다운로드가 불가능하기 때문에 백업이 필요하다.<br>
         
-     
+     <img width="594" alt="10" src="https://user-images.githubusercontent.com/49806698/235553752-94f4c18e-5eb6-4bda-b9a6-5eb897891e7c.png"><br>
+
 
         
     4. 네트워크는 보안 그룹을 따로 생성하도록 하였으며 SSH 트래픽의 경우 **위치 무관**으로 열어놓았다. 보안 상 특정 ip에서 접속하도록 설정 해야 하지만 현재는 스터디를 위한 것이므로 어느 IP에서도 접속이 가능하도록 하였다.
     
-    스토리지 구성의 경우 프리 티어는 최대 30GB 범용 SSD를 사용할 수 있어서 29GB를 할당하였다.
-        
+    스토리지 구성의 경우 프리 티어는 최대 30GB 범용 SSD를 사용할 수 있어서 29GB를 할당하였다.<br>
+        ![11](https://user-images.githubusercontent.com/49806698/235553782-fa8387f6-6307-4738-bc24-9171f285fc70.png)<br>
+
        
 
         
