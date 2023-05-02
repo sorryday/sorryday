@@ -97,13 +97,6 @@
     2. 인스턴스 시작을 누르면 Amazon Machine Image(AMI) 및 인스턴스 유형을 선택할 수 있는 페이지로 넘어간다. 이 부분에서 프리 티어의 Ubuntu 22.04 LTS 버전을 선택한다.
     프리 티어를 사용한다면 인스턴스의 유형은 **t2.mircro**로 고정이다.
     
-   <img width="800" alt="8" src="https://user-images.githubusercontent.com/49806698/235552127-6f2d2b8f-4e74-4d15-850b-cb500be2c42f.png">
-<img width="793" alt="9" src="https://user-images.githubusercontent.com/49806698/235552130-c1819db4-6a47-441e-94b3-9e07f899b6e2.png">
-<img width="594" alt="10" src="https://user-images.githubusercontent.com/49806698/235552131-9ab55222-fc19-428e-a52c-59cc1d663038.png">
-
-
-    
-    
     3. 키 페어는 EC2 서버에 SSH 접속을 위해 필수적인 부분이다.
     **새 키페어 생성**”을 통해 키 페어를 생성 하면 `[key이름].pem` 파일이 다운로드 되는데 이 파일의 위치에 가서 ssh 명령을 수행하면 된다.
     
