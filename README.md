@@ -234,8 +234,10 @@ source .bash_profile
 (env: 현재 지정되어 있는 환경 변수들을 출력하거나, 새로운 환경 변수를 설정하고 적용된 내용을 출력하는 명령어)
 env
 ```
+<br>
+<img width="167" alt="18" src="https://user-images.githubusercontent.com/49806698/235554217-98547f8e-98e9-4c72-95ea-c2b162eb659c.png"><br>
 
-![19](https://user-images.githubusercontent.com/49806698/235552264-a9e0e377-05a5-4fb6-ad4f-e468a79fa093.png)
+
 
 
 ### 3-3-3. JDK, Maven 설치
@@ -353,9 +355,10 @@ git clone [clone할 url]
 ### 3-4-1. 요구사항 (1) - index.html 응답하기
 
 - WebServer.java를 실행하고 브라우저에서 [localhost:8080/index.html](http://localhost:8080/index.html을) 로 접속해보자
-- 접속하고 개발자 도구 → Network → localhost의 Header를 보면 다음과 같은  Request Header 메시지를 볼 수 있다.
+- 접속하고 개발자 도구 → Network → localhost의 Header를 보면 다음과 같은  Request Header 메시지를 볼 수 있다.<br>
     
-    <img width="824" alt="20" src="https://user-images.githubusercontent.com/49806698/235552299-a7a8803a-d61c-4836-994c-2b139c246794.png">
+   ![19](https://user-images.githubusercontent.com/49806698/235554296-abaec389-0cc9-4dd3-b11b-adb07c234de0.png)<br>
+
 
     
 - 이 요청 값은 InputStream을 통해 들어오고 이를 BufferdReader를 통해 값을 출력할 수 있다.
@@ -393,9 +396,10 @@ responseBody(dos, body);
 
 ### 3-4-2. 요구사항 (2) - GET 방식으로 회원 가입하기
 
-- 지금 상태에서 웹 서버를 띄운 상태에서 회원 가입을 누르면 아래와 같은 HTTP Header 요청을 볼 수 있다.
-    
-   ![21](https://user-images.githubusercontent.com/49806698/235552339-2525d20c-81a8-4432-8e69-41faddbeba7e.png)
+- 지금 상태에서 웹 서버를 띄운 상태에서 회원 가입을 누르면 아래와 같은 HTTP Header 요청을 볼 수 있다.<br>
+<img width="824" alt="20" src="https://user-images.githubusercontent.com/49806698/235554329-2b434ef0-85ec-4f6e-8a48-92142d30e7c0.png"><br>
+
+  
 
     
 - 이 요청에서 알 수 있는건 **GET 방식으로 요청이 온다는 점**과 경로가 **/user/create?** 로 시작한다는 점이다.
@@ -425,15 +429,17 @@ if (url.startsWith("/user/create")) {
 	log.debug("User : {}", user);
 ```
 
-- 이 실습까지는 회원가입 처리 후 응답 메세지를 보내지 않았기 때문에 브라우저는 “응답 없음”을 띄울 것이다.
+- 이 실습까지는 회원가입 처리 후 응답 메세지를 보내지 않았기 때문에 브라우저는 “응답 없음”을 띄울 것이다.<br>
+![21](https://user-images.githubusercontent.com/49806698/235554370-2b048b0e-db2d-4f77-ab13-a64af84786af.png)<br>
 
-![22](https://user-images.githubusercontent.com/49806698/235552355-52a5de3a-4b1d-4ddc-8ecb-410d574dd5b2.png)
+
 
 
 - GET 방식은 사용자가 입력한 데이터가 URL에 표시 되기 때문에 보안적인 측면에서 취약하다.
-- 또 브라우저의 정책마다 다르지만 크롬 브라우저의 경우 2MB의 길이로 제한(주소창 표시는 32KB)을 둔다고 한다.
+- 또 브라우저의 정책마다 다르지만 크롬 브라우저의 경우 2MB의 길이로 제한(주소창 표시는 32KB)을 둔다고 한다.<br>
     
-    ![스크린샷 2023-05-02 오전 12.19.48.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a50d3ccc-a199-4003-922a-6baa9cddef94/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-05-02_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_12.19.48.png)
+    ![22](https://user-images.githubusercontent.com/49806698/235554401-e72515a1-83b5-4b01-aa6f-a846c43101cd.png)<br>
+
     
     <출처 : [Chromium Docs](https://chromium.googlesource.com/chromium/src/+/main/docs/security/url_display_guidelines/url_display_guidelines.md#URL-Length) >
     
@@ -482,9 +488,11 @@ if (url.startsWith("/user/create")) {
 	}
 ```
 
-![스크린샷 2023-05-02 오전 12.34.39.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/54b0950d-a375-4fae-aeb4-5a7ddd8d8f41/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-05-02_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_12.34.39.png)
+<br>
+![23](https://user-images.githubusercontent.com/49806698/235554448-a991c939-f25e-45e6-8ea9-71832eef25a6.png)<br>
+![24](https://user-images.githubusercontent.com/49806698/235554458-e72f8efd-743a-4d13-aa6d-5f5fe5b503d7.png)<br>
+<br>
 
-![스크린샷 2023-05-02 오전 12.34.51.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44d48752-b68b-4d07-b193-d3059ef2441a/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-05-02_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_12.34.51.png)
 
 - HTML에서는 기본으로 GET과 POST만을 지원한다.
     - GET
@@ -515,9 +523,10 @@ responseBody(dos, body);
 ```
 
 - 그러나 이 방식을 사용하면 ****************************브라우저가 이전 요청 정보를 유지 하고 있기 때문에**************************** 회원 가입 요청이 다시 실행된다.
-- url을 보면 index.html로 이동했음에도 /user/create로 되어 있는 것을 알 수 있다.
+- url을 보면 index.html로 이동했음에도 /user/create로 되어 있는 것을 알 수 있다.<br>
     
-    ![스크린샷 2023-05-02 오전 1.05.10.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0b413df1-132a-4b4f-bbd1-791a226b6484/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-05-02_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_1.05.10.png)
+   ![25](https://user-images.githubusercontent.com/49806698/235554494-9305be02-217f-40f8-a751-2e3560c5fb42.png)<br>
+
     
 - 이러면 데이터의 중복이 발생하므로 회원 가입을 처리하는 /user/create 요청과 index.html을 보여주는 요청을 분리한 후 HTTP의 302 상태 코드를 활용하여 해결할 수 있다.
 - /index.html로 이동하도록 응답을 보낼 때 응답 헤더의 Location으로 다음과 같은 응답을 보내면 클라이언트는 상태 코드를 확인 한 후 302라면 Location의 값으로 서버에 재요청을 전송한다.
@@ -541,8 +550,9 @@ private void response302Header(DataOutputStream dos, String url) {
 		}
 }
 ```
-
-![스크린샷 2023-05-02 오전 1.17.25.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bec5f583-0b9f-4e21-8c7a-aaf905b0c02b/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-05-02_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_1.17.25.png)
+<br>
+![26](https://user-images.githubusercontent.com/49806698/235554563-5e82eef2-b40a-45d7-8dbf-c2babb9c892d.png)<br>
+<br>
 
 - 상태 코드 정리
     - 2XX  : 성공. 클라이언트가 요청한 동작을 수신하여 이해했고 승낙햇으며, 성공적으로 처리
@@ -614,8 +624,9 @@ private void responseResource(OutputStream out, String url) throws IOException{
 	responseBody(dos, body);
 }
 ```
-
-![스크린샷 2023-05-02 오전 1.45.25.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/34f87ed5-45fb-4704-adac-1ca37b48ab89/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-05-02_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_1.45.25.png)
+<br>
+![27](https://user-images.githubusercontent.com/49806698/235554603-ff2e9135-2e92-4506-9b31-e0d6df804b4d.png)<br>
+<br>
 
 ### 3-4-6. 요구사항 (6) - 사용자 목록 출력
 
@@ -681,9 +692,10 @@ else if ("/user/list".equals(url)) {
 
 ### 3-4-6. 요구사항 (7) - CSS 지원하기
 
-- 이클립스 log Message를 보면 CSS 파일을 정상적으로 요청함을 알 수 있다.
+- 이클립스 log Message를 보면 CSS 파일을 정상적으로 요청함을 알 수 있다.<br>
     
-    ![스크린샷 2023-05-02 오전 2.16.39.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fdfba573-a0e0-48b9-a353-2cb16cbd3348/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-05-02_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_2.16.39.png)
+   ![28](https://user-images.githubusercontent.com/49806698/235554621-bfe656fe-a5dd-4ddb-9ef2-8e9ea1f0bbf2.png)<br>
+
     
 - 하지만 CSS 적용이 안되는 것을 알 수 있는데, 이는 **모든 컨텐츠의 타입을 text/html로 보내기 때문**이다.
 - 브라우저는 응답을 받은 후 Content-Type 헤더 값을 통해 Body에 포함되어 있는 컨텐츠가 어떤 것인지 판단한다.
