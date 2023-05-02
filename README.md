@@ -20,7 +20,7 @@
 
 ## 3-0. 서론
 
-- 3장의 전반적인 구성 내용<br>
+- 3장의 전반적인 구성 내용
     1. 질문/답변 게시판에 대한 서비스 요구사항과 실습 요구사항 제시<br>
     2. Web Client와 서버간의 데이터 통신을 위한 HTTP Web Application Server 구축<br>
     3. Local에서 Web Application 개발<br>
@@ -30,7 +30,7 @@
 	
 ## 3-1. 서비스 요구 사항
 
-- 질문/답변 게시판의 요구사항을 사용자의 흐름 순으로 살펴보자<br>
+- 질문/답변 게시판의 요구사항을 사용자의 흐름 순으로 살펴보자
     1. 질문/답변 게시판<br>
         1. Header에서 회원가입, 로그인, 로그아웃, 개인정보 수정이 가능<br>
     2. 회원가입 클릭 시 회원 가입 페이지로 이동<br>
@@ -47,33 +47,33 @@
     
 <img width="1663" alt="1" src="https://user-images.githubusercontent.com/49806698/235552016-ecd2e486-6035-459a-997f-859e08c55382.png">
 
-    
+    <br>
 2. 이클립스의 Git Perspective에서 Fork한 Repository를 Git clone 한다.
     <img width="520" alt="2" src="https://user-images.githubusercontent.com/49806698/235552036-a099c762-6dbe-4aad-9aee-dce3153435f0.png">
 
 
-    
+    <br>
 3. clone한 프로젝트를 로컬 폴더에 Import한다.<br>
 	<img width="520" alt="3" src="https://user-images.githubusercontent.com/49806698/235552059-653e66ab-15c3-44c5-b38d-6f6e2ef362b5.png">
     
 
 
-    
+    <br>
 4. Import한 프로젝트에서 **WebServer.java**를 Java Application으로 실행한다.
     <img width="1035" alt="4" src="https://user-images.githubusercontent.com/49806698/235552065-03067ae8-7ea6-4eec-bff3-7df27e16cbee.png">
 
    
-    
+    <br>
 5. “Hello world”가 잘 출력되는지 확인
     <img width="809" alt="5" src="https://user-images.githubusercontent.com/49806698/235552078-f9dc6692-45a9-404e-8d81-72d9bd0800df.png">
 
  
-    
+    <br>
 
 - 터미널에서 Git Clone한 후 Import 하는 방법
     - [https://www.youtube.com/watch?v=5hjYe_PggJI](https://www.youtube.com/watch?v=5hjYe_PggJI)
     
-
+<br>
 ## 3-3. 원격 서버에 배포
 
 - 참고 유튜브 영상
