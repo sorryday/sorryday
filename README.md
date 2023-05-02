@@ -552,8 +552,8 @@ private void response302Header(DataOutputStream dos, String url) {
 		}
 }
 ```
-<br>
-![26](https://user-images.githubusercontent.com/49806698/235554563-5e82eef2-b40a-45d7-8dbf-c2babb9c892d.png)<br>
+
+![26](https://user-images.githubusercontent.com/49806698/235554563-5e82eef2-b40a-45d7-8dbf-c2babb9c892d.png)
 <br>
 
 - 상태 코드 정리
@@ -626,8 +626,8 @@ private void responseResource(OutputStream out, String url) throws IOException{
 	responseBody(dos, body);
 }
 ```
-<br>
-![27](https://user-images.githubusercontent.com/49806698/235554603-ff2e9135-2e92-4506-9b31-e0d6df804b4d.png)<br>
+
+![27](https://user-images.githubusercontent.com/49806698/235554603-ff2e9135-2e92-4506-9b31-e0d6df804b4d.png)
 <br>
 
 ### 3-4-6. 요구사항 (6) - 사용자 목록 출력
@@ -696,7 +696,7 @@ else if ("/user/list".equals(url)) {
 
 - 이클립스 log Message를 보면 CSS 파일을 정상적으로 요청함을 알 수 있다.<br>
     
-   ![28](https://user-images.githubusercontent.com/49806698/235554621-bfe656fe-a5dd-4ddb-9ef2-8e9ea1f0bbf2.png)<br>
+   ![28](https://user-images.githubusercontent.com/49806698/235554621-bfe656fe-a5dd-4ddb-9ef2-8e9ea1f0bbf2.png)
 
     
 - 하지만 CSS 적용이 안되는 것을 알 수 있는데, 이는 **모든 컨텐츠의 타입을 text/html로 보내기 때문**이다.
