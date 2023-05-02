@@ -73,7 +73,7 @@
 - 터미널에서 Git Clone한 후 Import 하는 방법
     - [https://www.youtube.com/watch?v=5hjYe_PggJI](https://www.youtube.com/watch?v=5hjYe_PggJI)
     
-<br>
+
 ## 3-3. 원격 서버에 배포
 
 - 참고 유튜브 영상
