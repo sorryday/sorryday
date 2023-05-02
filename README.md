@@ -95,8 +95,11 @@
 
     
     2. 인스턴스 시작을 누르면 Amazon Machine Image(AMI) 및 인스턴스 유형을 선택할 수 있는 페이지로 넘어간다. 이 부분에서 프리 티어의 Ubuntu 22.04 LTS 버전을 선택한다.
-    프리 티어를 사용한다면 인스턴스의 유형은 **t2.mircro**로 고정이다.
-    
+    프리 티어를 사용한다면 인스턴스의 유형은 **t2.mircro**로 고정이다. <br>
+    <img width="800" alt="8" src="https://user-images.githubusercontent.com/49806698/235553459-a5f6ebd5-4b02-414e-a59a-56534318df00.png"><br>
+    <img width="793" alt="9" src="https://user-images.githubusercontent.com/49806698/235553475-1bd645bf-0b95-4a68-9014-2176eeaa5295.png"><br>
+    <img width="594" alt="10" src="https://user-images.githubusercontent.com/49806698/235553484-646e3e54-1ae2-4fc2-a909-285930a42728.png"><br>
+
     3. 키 페어는 EC2 서버에 SSH 접속을 위해 필수적인 부분이다.
     **새 키페어 생성**”을 통해 키 페어를 생성 하면 `[key이름].pem` 파일이 다운로드 되는데 이 파일의 위치에 가서 ssh 명령을 수행하면 된다.
     
@@ -182,12 +185,10 @@
         
         우선 가장 많이 사용하는 “SSH”, “HTTP”, “HTTPS”를 추가한다. **0.0.0.0/0**은 모든 IP의 접속을 허용한다는 얘기이다.
             
-           ![17](https://user-images.githubusercontent.com/49806698/235552216-80b7e73b-96a8-42ba-adf5-f2f94c0320bd.png)
 
             
         - 규칙을 다 설정하고 저장했다면 인스턴스로 와서 생성한 보안그룹으로 변경하면 정상적으로 적용된다.
             
-            <img width="167" alt="18" src="https://user-images.githubusercontent.com/49806698/235552229-20a5d7ce-f669-4046-80c7-72211fa4f57d.png">
 
             
     
